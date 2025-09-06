@@ -1,5 +1,5 @@
 # fly.toml generated for a static site
-app = "Test"
+app = "test_page"
 primary_region = "ord" # Chicago; change if you prefer
 
 
