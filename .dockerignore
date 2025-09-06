@@ -1,0 +1,6 @@
+.git
+.github
+README.md
+fly.toml
+Dockerfile
+**/.DS_Store
