@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>My Fly.io Site</title>
+<meta name="description" content="A tiny static site deployed on Fly.io" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+<header class="container">
+<h1>🚀 Hello, Fly.io!</h1>
+<p class="tagline">This site is served from a lightweight NGINX image on Fly.io.</p>
+<nav>
+<a href="#features">Features</a>
+<a href="#how">How it works</a>
+<a href="https://fly.io/docs/" target="_blank" rel="noreferrer">Docs</a>
+</nav>
+</header>
+
+
+<main class="container">
+<section id="features" class="card">
+<h2>What you get</h2>
+<ul>
+<li>Static site (HTML/CSS/JS)</li>
+<li>Dockerfile configured for NGINX</li>
+<li><code>fly.toml</code> ready to go</li>
+<li>GitHub Actions deploy on push to <code>main</code></li>
+</ul>
+</section>
+
+
+<section id="how" class="card">
+<h2>One small JS flourish</h2>
+<p id="fun-fact">Loading fun fact…</p>
+<button id="new-fact">New fact</button>
+</section>
+</main>
+
+
+<footer class="container footer">
+<p>
+Built with ❤ and deployed on <strong>Fly.io</strong>. View the source on
+<a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>.
+</p>
+</footer>
+
+
+<script src="/script.js"></script>
+</body>
+</html>
