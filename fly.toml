@@ -3,8 +3,7 @@ app = "test_page"
 primary_region = "ord" # Chicago; change if you prefer
 
 
-[build]
-dockerfile = "Dockerfile"
+
 
 
 [[services]]
